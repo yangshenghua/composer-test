@@ -25,7 +25,7 @@
         "Rockyang\\Rose\\RoseServiceProvider"
       ],
       "aliases": {
-        "Rose": "Rockyang\\Rose\\RoseFacade"
+        "Rose": "Rockyang\\Rose\\Facades\\RoseFacade"
       }
     }
   }
