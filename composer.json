@@ -1,0 +1,32 @@
+{
+  "name": "rockyang/rose",
+  "description": "just try make a package",
+  "type": "library",
+  "license": "MIT",
+  "version": "1.0.0",
+  "authors": [
+    {
+      "name": "RockYang",
+      "email": "ro66102603@qq.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {
+    "php": ">= 7.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "Rockyang\\Rose\\": "src/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Rockyang\\Rose\\RoseServiceProvider"
+      ],
+      "aliases": {
+        "Rose": "Rockyang\\Rose\\RoseFacade"
+      }
+    }
+  }
+}
